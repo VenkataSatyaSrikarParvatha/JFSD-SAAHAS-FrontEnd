@@ -1,0 +1,31 @@
+/* src/components/doctor/Navigation.css */
+
+.doctor-nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.doctor-nav h2 {
+    margin: 0 0 10px;
+}
+
+.doctor-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.doctor-nav li {
+    margin: 10px 0;
+}
+
+.doctor-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.doctor-nav a:hover {
+    color: #007BFF;
+}

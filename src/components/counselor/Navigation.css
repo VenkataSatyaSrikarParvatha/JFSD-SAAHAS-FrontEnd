@@ -1,0 +1,24 @@
+/* src/components/visitor/Navigation.css */
+.visitor-navbar {
+    background-color: #f8f9fa; /* Light background */
+    padding: 10px;
+}
+
+.visitor-navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.visitor-navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.visitor-navbar a {
+    text-decoration: none;
+    color: #007bff; /* Bootstrap link color */
+}
+
+.visitor-navbar a:hover {
+    text-decoration: underline;
+}
