@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
-import './Acceptance.css'; // Import the CSS for styling
+import './Acceptance.css'; 
 
 const Acceptance = () => {
-  // Sample data for accepted users (replace with actual data from your backend)
   const [acceptedUsers, setAcceptedUsers] = useState([
     { id: 1, name: 'John Doe', role: 'Victim', dateAccepted: '2024-09-28' },
     { id: 2, name: 'Jane Smith', role: 'Counselor', dateAccepted: '2024-09-30' },
     { id: 3, name: 'Emily Johnson', role: 'Legal Advisor', dateAccepted: '2024-10-02' },
   ]);
 
-  // Function to handle removing a user from acceptance history
   const handleRemove = (id) => {
     setAcceptedUsers(acceptedUsers.filter(user => user.id !== id));
   };

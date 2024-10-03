@@ -1,6 +1,6 @@
 import React from 'react';
-import AdminNavigation from './Navigation'; // Import the Admin Navigation
-import './Dashboard.css'; // Create this CSS file for styling
+import AdminNavigation from './Navigation'; 
+import './Dashboard.css'; 
 
 const Dashboard = () => {
     return (

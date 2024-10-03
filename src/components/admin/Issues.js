@@ -1,6 +1,6 @@
 import React from 'react';
-import AdminNavigation from './Navigation'; // Import Admin Navigation
-import './Issues.css'; // Create this CSS file for styling
+import AdminNavigation from './Navigation'; 
+import './Issues.css'; 
 
 const Issues = () => {
     return (
@@ -20,7 +20,6 @@ const Issues = () => {
                         </tr>
                     </thead>
                     <tbody>
-                        {/* Sample data; replace with real data from your database */}
                         <tr>
                             <td>1</td>
                             <td>Issue description here.</td>

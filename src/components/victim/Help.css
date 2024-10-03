@@ -1,0 +1,39 @@
+/* Help.css */
+
+.help-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.help-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.help-container p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.help-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.help-container li {
+    background: #e8f0fe;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.help-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.help-container a:hover {
+    text-decoration: underline;
+}

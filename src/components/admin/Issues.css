@@ -19,7 +19,7 @@ p {
 }
 
 .issues-table-container {
-    overflow-x: auto; /* Enable horizontal scrolling on small screens */
+    overflow-x: auto; 
 }
 
 .issues-table {
@@ -44,7 +44,7 @@ p {
 }
 
 .issues-table tr:hover {
-    background-color: #dfe6e9; /* Highlight row on hover */
+    background-color: #dfe6e9; 
 }
 
 .action-btn {

@@ -12,7 +12,7 @@ const VictimNavigation = () => {
                 <li><Link to="/victim/explore">Explore</Link></li>
                 <li><Link to="/victim/store">Store</Link></li>
                 <li><Link to="/victim/help">Help</Link></li>
-                <li><Link to="/logout" className="logout-link">Logout</Link></li> {/* Logout link */}
+                <li><Link to="/" className="logout-link">Logout</Link></li> {/* Logout link */}
             </ul>
         </nav>
     );
