@@ -1,0 +1,44 @@
+/* src/components/counselor/Dashboard.css */
+
+.dashboard-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.dashboard-container p {
+    margin-bottom: 20px;
+    color: #555; /* Darker text color for better readability */
+}
+
+.dashboard-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dashboard-links li {
+    margin-bottom: 10px;
+}
+
+.dashboard-links a {
+    text-decoration: none;
+    color: #008CBA; /* Blue color for links */
+    padding: 10px;
+    background-color: #ffffff; /* White background for links */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: inline-block; /* Make links look like buttons */
+    transition: background-color 0.3s, color 0.3s; /* Transition effect */
+}
+
+.dashboard-links a:hover {
+    background-color: #008CBA; /* Change background on hover */
+    color: white; /* Change text color on hover */
+}

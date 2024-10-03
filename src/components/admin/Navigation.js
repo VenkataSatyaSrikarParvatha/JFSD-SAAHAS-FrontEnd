@@ -1,8 +1,6 @@
-// src/components/admin/Navigation.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-//import './Navigation.css'; // Create this CSS file for styling
-import './Navigation.css';
+import './Navigation.css'; // Ensure the CSS file is created for styling
 
 const AdminNavigation = () => {
     return (
@@ -14,7 +12,7 @@ const AdminNavigation = () => {
                 <li><Link to="/admin/manage-roles">Manage Roles</Link></li>
                 <li><Link to="/admin/training">Training</Link></li>
                 <li><Link to="/admin/issues">Manage Issues</Link></li>
-                <li><Link to="/">Logout</Link></li> {/* Add logout functionality as needed */}
+                <li><Link to="/" className="logout">Logout</Link></li> {/* Add logout functionality as needed */}
             </ul>
         </nav>
     );

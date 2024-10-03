@@ -1,0 +1,68 @@
+/* src/components/admin/VictimReports.css */
+
+.admin-victim-reports {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.admin-victim-reports h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.admin-victim-reports p {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.view-button, .resolve-button {
+    background-color: #008CBA; /* Blue */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.view-button:hover {
+    background-color: #007BB5;
+}
+
+.resolve-button {
+    background-color: #4CAF50; /* Green */
+}
+
+.resolve-button:hover {
+    background-color: #45a049;
+}
+
+.resolve-button[disabled] {
+    background-color: #ccc; /* Gray */
+    cursor: not-allowed;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}

@@ -1,23 +1,40 @@
-// src/components/admin/ManageRoles.js
 import React from 'react';
 import AdminNavigation from './Navigation'; // Import Admin Navigation
-//import './ManageRoles.css'; // Create this CSS file for styling
+import './ManageRoles.css'; // Ensure this CSS file is created for styling
 
 const ManageRoles = () => {
+    const roles = ["Admin", "Victim", "Counselor", "Doctor", "Legal Advisor"]; // Sample role list
+
+    const handleAddRole = () => {
+        // Logic to add a new role
+        alert("Add role functionality to be implemented");
+    };
+
+    const handleEditRole = (role) => {
+        // Logic to edit the specified role
+        alert(`Edit ${role} functionality to be implemented`);
+    };
+
+    const handleDeleteRole = (role) => {
+        // Logic to delete the specified role
+        alert(`Delete ${role} functionality to be implemented`);
+    };
+
     return (
         <div className="admin-manage-roles">
             <AdminNavigation />
             <h1>Manage Roles</h1>
             <p>Here you can manage user roles.</p>
-            {/* Sample Role List */}
             <ul>
-                <li>Admin</li>
-                <li>Victim</li>
-                <li>Counselor</li>
-                <li>Doctor</li>
-                <li>Legal Advisor</li>
-                {/* Add options to add/edit/delete roles */}
+                {roles.map((role, index) => (
+                    <li key={index}>
+                        {role}
+                        <button onClick={() => handleEditRole(role)}>Edit</button>
+                        <button onClick={() => handleDeleteRole(role)}>Delete</button>
+                    </li>
+                ))}
             </ul>
+            <button onClick={handleAddRole} className="add-role-button">Add New Role</button>
         </div>
     );
 };

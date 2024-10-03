@@ -1,0 +1,43 @@
+/* src/components/counselor/Store.css */
+
+.store-container {
+    padding: 20px; /* Padding around the container */
+}
+
+h1 {
+    font-size: 2em; /* Font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.item-list {
+    display: flex; /* Flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping of items */
+    gap: 20px; /* Space between item cards */
+}
+
+.item-card {
+    border: 1px solid #ccc; /* Border for item cards */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Padding inside item cards */
+    width: 200px; /* Fixed width for item cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    text-align: center; /* Center text inside item cards */
+}
+
+.item-card h2 {
+    font-size: 1.5em; /* Font size for item name */
+    margin-bottom: 10px; /* Space below item name */
+}
+
+button {
+    background-color: #4CAF50; /* Green background for the button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}

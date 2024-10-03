@@ -1,24 +1,37 @@
-/* src/components/visitor/Navigation.css */
 .visitor-navbar {
-    background-color: #f8f9fa; /* Light background */
-    padding: 10px;
+    background-color: #34495e; /* Dark blue/navy color */
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .visitor-navbar ul {
     list-style-type: none;
+    margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 900px;
 }
 
 .visitor-navbar li {
-    display: inline;
-    margin-right: 20px;
+    margin: 0 15px;
 }
 
 .visitor-navbar a {
+    color: white;
     text-decoration: none;
-    color: #007bff; /* Bootstrap link color */
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
 }
 
 .visitor-navbar a:hover {
-    text-decoration: underline;
+    color: #1abc9c; /* Light teal color for hover effect */
+}
+
+.visitor-navbar a:active {
+    color: #f39c12; /* Orange color for active links */
 }

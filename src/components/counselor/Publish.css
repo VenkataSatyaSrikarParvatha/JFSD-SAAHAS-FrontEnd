@@ -1,0 +1,55 @@
+/* src/components/counselor/Publish.css */
+
+.publish-container {
+    padding: 20px; /* Padding around the container */
+}
+
+.publish-form {
+    background-color: #f9f9f9; /* Light background for the form */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Padding inside the form */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px; /* Maximum width for the form */
+    margin: 20px auto; /* Center the form */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form fields */
+}
+
+label {
+    display: block; /* Block display for labels */
+    font-weight: bold; /* Bold text for labels */
+    margin-bottom: 5px; /* Space below labels */
+}
+
+.form-input,
+.form-textarea {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding inside the inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for input text */
+    transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    border-color: #007BFF; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.publish-button {
+    background-color: #007BFF; /* Blue background for the button */
+    color: white; /* White text for the button */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.publish-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

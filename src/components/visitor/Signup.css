@@ -1,0 +1,75 @@
+.signup-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.signup-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-container label {
+    font-size: 1.1rem;
+    color: #34495e;
+    margin-bottom: 8px;
+    width: 100%;
+    text-align: left;
+}
+
+.signup-container input,
+.signup-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #ffffff;
+}
+
+.signup-container input:focus,
+.signup-container select:focus {
+    border-color: #1abc9c; /* Teal color for focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(26, 188, 156, 0.5);
+}
+
+.signup-container button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #1abc9c; /* Teal button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-container button:hover {
+    background-color: #16a085; /* Darker teal on hover */
+}
+
+.signup-container select {
+    appearance: none;
+    background-color: #ffffff;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4IDEiIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSI+PHBhdGggZD0iTS43LjFsNi44LjcgNi43LS44TDguNCAyLjhMNy44IDMuNEwyIDkgMC44IDMuMyAxLjMgMi44ek0wIDhoNmw3LS44TDggOUw3LjQgOS41TDIgMyAweiIgZmlsbD0iIzEyMTIxMiIvPjwvc3ZnPg==');
+    background-position: calc(100% - 10px) center;
+    background-repeat: no-repeat;
+}
+
+.signup-container input[type="password"] {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.1rem;
+}

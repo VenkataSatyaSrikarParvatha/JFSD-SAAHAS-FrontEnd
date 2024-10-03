@@ -1,0 +1,73 @@
+.admin-issues {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+}
+
+.issues-table-container {
+    overflow-x: auto; /* Enable horizontal scrolling on small screens */
+}
+
+.issues-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.issues-table th, .issues-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.issues-table th {
+    background-color: #3498db;
+    color: white;
+}
+
+.issues-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.issues-table tr:hover {
+    background-color: #dfe6e9; /* Highlight row on hover */
+}
+
+.action-btn {
+    padding: 6px 12px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2ecc71;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action-btn:hover {
+    background-color: #27ae60;
+}
+
+@media (max-width: 768px) {
+    .issues-table th, .issues-table td {
+        font-size: 0.9rem;
+    }
+
+    .action-btn {
+        padding: 5px 10px;
+    }
+}

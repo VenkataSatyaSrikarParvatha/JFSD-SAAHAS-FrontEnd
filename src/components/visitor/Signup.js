@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import Navigation from './Navigation'; // Import the Navigation component
-//import './Signup.css'; // Create this CSS file for styling
+import './Signup.css'; // Create this CSS file for styling
 
 const Signup = () => {
     const [role, setRole] = useState("Victim"); // Default role
