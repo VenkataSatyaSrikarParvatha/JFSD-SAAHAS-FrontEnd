@@ -1,0 +1,26 @@
+.explore-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+}
+
+.counselor-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+.counselor-item {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #ffffff; /* White background for each item */
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    transition: box-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+.counselor-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+}
+
+h1 {
+    color: #007bff; /* Title color */
+}

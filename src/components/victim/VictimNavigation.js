@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 //import './VictimNavigation.css'; // You can style this as needed
+import './VictimNavigation.css'; // Import CSS file for styling
 
 const VictimNavigation = () => {
     return (
@@ -11,6 +12,7 @@ const VictimNavigation = () => {
                 <li><Link to="/victim/explore">Explore</Link></li>
                 <li><Link to="/victim/store">Store</Link></li>
                 <li><Link to="/victim/help">Help</Link></li>
+                <li><Link to="/logout" className="logout-link">Logout</Link></li> {/* Logout link */}
             </ul>
         </nav>
     );
