@@ -1,46 +1,50 @@
 .help-container {
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
     max-width: 800px;
-    margin: 40px auto;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #2c3e50;
 }
 
 h1 {
-    color: #333;
+    font-size: 2.5rem;
+    color: #1a5276;
     text-align: center;
-    margin-bottom: 20px;
-}
-
-p {
-    color: #555;
-    font-size: 1.1rem;
-    margin-bottom: 15px;
-}
-
-.faq-section {
-    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 h2 {
-    color: #2c3e50;
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+    font-size: 2rem;
+    color: #2980b9;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 h3 {
-    color: #3498db;
+    font-size: 1.5rem;
+    color: #34495e;
+    margin: 15px 0 5px;
+}
+
+p {
     font-size: 1.2rem;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    line-height: 1.5;
 }
 
 a {
-    color: #3498db;
+    color: #2980b9;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+.faq-section {
+    margin-bottom: 30px;
 }

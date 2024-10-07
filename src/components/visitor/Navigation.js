@@ -1,12 +1,11 @@
-// src/components/visitor/Navigation.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Navigation.css'; // Create this CSS file for styling
+import './Navigation.css';
 
 const Navigation = () => {
     return (
-        <nav className="visitor-navbar">
-            <ul>
+        <nav className="navbar">
+            <ul className="navbar-links">
                 <li><Link to="/home">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/requirements">Requirements</Link></li>

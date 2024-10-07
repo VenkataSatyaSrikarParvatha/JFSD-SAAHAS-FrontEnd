@@ -1,11 +1,15 @@
 import React from 'react';
-import Navigation from './Navigation'; // Import the Navigation component
-import './Help.css'; // Import the CSS file for styling
+import Navigation from './Navigation';
+import './Help.css'
 
 const Help = () => {
     return (
         <div className="help-container">
             <Navigation />
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <h1>Help / FAQ</h1>
             <p>If you need assistance, here are some frequently asked questions that might help you:</p>
             

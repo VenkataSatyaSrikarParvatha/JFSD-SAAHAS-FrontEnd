@@ -1,21 +1,18 @@
-// src/components/visitor/Login.js
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
-import Navigation from './Navigation'; // Import the Navigation component
-import './Login.css'; // Create this CSS file for styling
+import { useNavigate } from 'react-router-dom'; 
+import Navigation from './Navigation'; 
+import './Login.css'; 
 
 const Login = () => {
-    const [role, setRole] = useState("Victim"); // Default role
+    const [role, setRole] = useState("Victim");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    const navigate = useNavigate(); // Initialize useNavigate
+    const navigate = useNavigate(); 
 
     const handleLogin = (e) => {
         e.preventDefault();
-        // Handle login logic here (authentication)
         console.log(`Logging in as ${role}`);
 
-        // Redirect to the respective role dashboard
         switch (role) {
             case "Admin":
                 navigate("/admin/dashboard");
@@ -40,6 +37,10 @@ const Login = () => {
     return (
         <div className="login-container">
             <Navigation />
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <h1>Login</h1>
             <form onSubmit={handleLogin}>
                 <label>Select Role:</label>

@@ -1,21 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Navigation from './Navigation'; // Adjust the path based on your project structure
-import './Home.css'; // Ensure you create this CSS file for styling
+import Navigation from './Navigation'; 
+import './Home.css'; 
 
 const Home = () => {
     return (
         <div className="home-container">
-            {/* Navigation Bar */}
+            
             <Navigation />
-
-            {/* Welcome Section */}
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <div className="welcome-section">
                 <h1>Welcome to Saahas</h1>
                 <p>Your journey to support and resources begins here.</p>
             </div>
 
-            {/* Modules Section */}
+            
             <div className="modules-section">
                 <h2>Check Out</h2>
                 <ul>
@@ -26,7 +28,7 @@ const Home = () => {
                 </ul>
             </div>
 
-            {/* Roles Section */}
+      
             <div className="roles-section">
                 <h2>Roles in Saahas</h2>
                 <div className="roles-description">

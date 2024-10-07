@@ -1,37 +1,35 @@
-.visitor-navbar {
-    background-color: #34495e; /* Dark blue/navy color */
-    padding: 15px;
+.navbar {
+    background-color: #34495e; 
+    padding: 20px 30px; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
     display: flex;
     justify-content: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.visitor-navbar ul {
+.navbar-links {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-    max-width: 900px;
+    padding: 0;
+    margin: 0;
 }
 
-.visitor-navbar li {
-    margin: 0 15px;
+.navbar-links li {
+    margin: 0 25px; 
 }
 
-.visitor-navbar a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 500;
-    transition: color 0.3s ease;
+.navbar-links a {
+    color: #ecf0f1; 
+    padding: 15px 25px;
+    font-size: 1.2em; 
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.visitor-navbar a:hover {
-    color: #1abc9c; /* Light teal color for hover effect */
-}
-
-.visitor-navbar a:active {
-    color: #f39c12; /* Orange color for active links */
+.navbar-links a:hover {
+    background-color: #3498db; 
+    color: #ffffff;
 }

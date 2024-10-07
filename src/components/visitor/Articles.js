@@ -1,11 +1,15 @@
 import React from 'react';
-import Navigation from './Navigation'; // Import the Navigation component
-import './Articles.css'; // Import the CSS file for styling
+import Navigation from './Navigation'; 
+import './Articles.css';
 
 const Articles = () => {
     return (
         <div className="articles-container">
             <Navigation />
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <h1>Articles on Domestic Violence</h1>
             <p>
                 Here are various articles, laws, and insights about domestic violence and its effects on individuals and society. 

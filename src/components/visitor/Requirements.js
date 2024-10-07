@@ -1,11 +1,15 @@
 import React from 'react';
-import Navigation from './Navigation'; // Import the Navigation component
-//import './Requirements.css'; // Ensure you create this CSS file for styling
+import Navigation from './Navigation'; 
+import './Requirements.css'; // Ensure you create this CSS file for styling
 
 const Requirements = () => {
     return (
         <div className="requirements-container">
             <Navigation />
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <h1>Requirements for Counselors, Doctors, and Legal Advisors</h1>
             
             <section className="requirements-section">

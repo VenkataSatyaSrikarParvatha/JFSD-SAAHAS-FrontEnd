@@ -1,57 +1,65 @@
+/* ManageRoles.css */
+
 .admin-manage-roles {
     padding: 20px;
-    background-color: #f4f6f8; /* Light background for the manage roles section */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .admin-manage-roles h1 {
-    color: #2c3e50; /* Dark color for heading */
+    color: #333;
+    margin-bottom: 10px;
 }
 
 .admin-manage-roles p {
-    font-size: 16px; /* Font size for description */
-    color: #34495e; /* Slightly lighter color */
+    color: #666;
+    margin-bottom: 20px;
 }
 
 .admin-manage-roles ul {
-    list-style-type: none; /* Remove bullets */
+    list-style-type: none; /* Remove bullet points */
     padding: 0;
 }
 
 .admin-manage-roles li {
-    display: flex; /* Flexbox for layout */
-    justify-content: space-between; /* Space between role name and buttons */
-    align-items: center; /* Align items vertically */
-    padding: 10px 0; /* Spacing around list items */
-    border-bottom: 1px solid #ddd; /* Divider between roles */
+    background-color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Center items vertically */
 }
 
 .admin-manage-roles button {
-    margin-left: 10px; /* Spacing between buttons */
-    padding: 5px 10px; /* Button padding */
-    border: none; /* Remove default border */
-    border-radius: 5px; /* Rounded button corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s; /* Smooth background transition */
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .admin-manage-roles button:hover {
-    background-color: #3498db; /* Change color on hover */
-    color: white; /* Text color change on hover */
+    background-color: #0056b3;
 }
 
 .add-role-button {
-    margin-top: 20px; /* Margin above the add button */
-    padding: 10px 15px; /* Padding for the add button */
-    background-color: #2ecc71; /* Green background for add button */
-    color: white; /* White text color */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor */
-    transition: background-color 0.3s; /* Smooth transition */
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #28a745; /* Green for add button */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .add-role-button:hover {
-    background-color: #27ae60; /* Darker green on hover */
+    background-color: #218838;
 }

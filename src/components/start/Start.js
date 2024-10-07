@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Start.css'; // Make sure you create this CSS file for styling
-import logo from './1.png'; // Import the logo
+import './Start.css'; 
+import logo from './1.png'; 
 
 const Start = () => {
     return (

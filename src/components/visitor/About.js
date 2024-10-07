@@ -1,25 +1,28 @@
 import React from 'react';
-import Navigation from './Navigation'; // Import the Navigation component
-import './About.css'; // Import the CSS file for styling
+import Navigation from './Navigation';
+import './About.css';
 
 const About = () => {
     return (
+        
         <div className="about-container">
             <Navigation />
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <h1>About Saahas</h1>
             <p>
-                Saahas is a comprehensive platform designed to support individuals affected by domestic violence. 
-                It provides a range of resources, including counseling, legal aid, and medical support. 
-                Our goal is to empower victims and survivors by offering a safe and accessible space 
-                for recovery and growth.
+                Saahas is a dedicated platform aimed at providing comprehensive support to individuals facing domestic violence. 
+                We offer counseling, legal aid, and medical assistance to empower survivors on their journey to healing and growth.
             </p>
-            <h2>Team</h2>
+            <h2>Meet the Team</h2>
             <ul>
                 <li>VENKATA SATYA SRIKAR PARVATHA - 2200032432</li>
                 <li>ANNAPUREDDY KOMALI - 2200030184</li>
             </ul>
-            <h2>Our Advisor / Mentor</h2>
-            <p>Jonnalagadda Surya Kiran, Assistant Professor, CSE at K L University</p>
+            <h2>Advisor</h2>
+            <p>Jonnalagadda Surya Kiran, Assistant Professor, Department of CSE, K L University</p>
         </div>
     );
 };

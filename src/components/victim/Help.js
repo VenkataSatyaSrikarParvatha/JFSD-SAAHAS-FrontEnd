@@ -11,7 +11,7 @@ const Help = () => {
             <h2>Contact Us</h2>
             <ul>
                 <li><strong>Email:</strong> support@saahas.com</li>
-                <li><strong>Phone:</strong> +123-456-7890</li>
+                <li><strong>Phone:</strong> +91 6578765645</li>
                 <li><strong>Live Chat:</strong> Available on our website during business hours.</li>
             </ul>
             <h2>Frequently Asked Questions (FAQs)</h2>

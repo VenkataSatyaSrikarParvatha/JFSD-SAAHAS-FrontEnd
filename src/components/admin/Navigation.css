@@ -1,39 +1,31 @@
 .admin-navigation {
-    background-color: #3498db; /* Nav background color */
-    padding: 10px 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #343a40;
+    padding: 15px;
+    border-radius: 4px;
 }
 
 .admin-navigation ul {
-    list-style-type: none; /* Remove bullets */
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Flexbox layout for horizontal nav */
+    display: flex;
+    flex-direction: column;
 }
 
 .admin-navigation li {
-    margin-right: 20px; /* Spacing between items */
+    margin: 10px 0;
 }
 
 .admin-navigation a {
-    text-decoration: none; /* Remove underline */
-    color: white; /* Text color */
-    font-weight: bold; /* Bold text */
-    transition: color 0.3s; /* Smooth color transition */
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 .admin-navigation a:hover {
-    color: #f1c40f; /* Highlight color on hover */
+    text-decoration: underline;
 }
 
 .logout {
-    background-color: #e74c3c; /* Logout button color */
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s; /* Smooth background color transition */
-}
-
-.logout:hover {
-    background-color: #c0392b; /* Darker shade on hover */
+    color: #dc3545;
 }
